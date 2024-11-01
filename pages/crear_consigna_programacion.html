@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitanco</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="primera_barra">
+        <h1 class="logo">Mitanco</h1>
+        <div>
+            <form action="/search/" method="post">
+                <input type="search" name="search" id="Search" placeholder="Search" />
+                <a ><i class="material-icons left small">search</i></a>
+            </form>
+        </div>
+        <br>
+        <a href="perfil.html" class="btn_perfil"><button>Usuario</button></a>
+    </div>
+    <br>
+    <nav class="navbarMio">
+        <ul class="nav-links">
+            <a href="index.html"><li>Inicio</li></a>
+            <a href=#><li>Explorar</li></a>
+            <a href="galeria.html"><li>Galería</li></a>
+            <a href=#><li>Biblioteca</li></a>
+            <a href=#><li>Ajustes</li></a>
+        </ul>
+    </nav>
+    
+    <div class="cuadrado_interfaz">
+        <br>
+        <div class="texto_titulo">
+            <h5>Consigna del día</h5>
+        </div>
+        <br>
+        <div class="cuadrado-marron">
+            <div class="texto-blanco">
+                <h5>Curso: Programacion</h5>
+            </div>
+            <div class="rectangulo_interfaz">
+                <div class="pedir_consigna_interfaz">
+                    <br>
+                    <div class="contenedor_cursos">
+                        <div class="cursos_item"><a href="pedir_consigna_programacion.html"><img src="img/bx-desktop.svg"></a></div>                        <div class="cursos_item">2</div>
+                        <div class="cursos_item">3</div>
+                        <div class="cursos_item">4</div>
+                        <div class="cursos_item">5</div>
+                        <div class="cursos_item">6</div>
+                        <div class="cursos_item">7</div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+            <div class="especificaciones-pedir-consigna">
+                <div class="especificaciones-lista">
+                     <ul>
+                        <li class="especificaciones-individual">Lenguaje de programación:</li>
+                    </ul>
+                </div>
+                <label>
+                    <input type="checkbox" class="filled-in" checked="checked" />
+                    <span>Python</span>
+                </label>
+                <label>
+                    <input type="checkbox" class="filled-in" checked="checked" />
+                    <span>Java</span>
+                </label>
+                <label>
+                    <input type="checkbox" class="filled-in" checked="checked" />
+                    <span>C++</span>
+                </label>
+                <label>
+                    <input type="checkbox" class="filled-in" checked="checked" />
+                    <span>HTML</span>
+                </label>
+                <div class="titulo-de-consigna">
+                    <label for="titulo">Titulo:</label><br>
+                    <input type="text" id="tituloCrearConsigna" name="titulo">
+                </div>
+                <div class="descripcion-de-la-consigna">
+                    <label for="texto">Descripción de la consigna:</label><br>
+                    <textarea name="texto" id="descripcionCrearConsigna" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                <div class="Documentacion-de-la-consigna">
+                    <label for="texto">Documentación de la consigna (opcional):</label><br>
+                    <textarea name="texto" id="documentacionCrearConsigna" cols="30" rows="10"></textarea>
+                </div>
+                </div>
+                <br>
+                <div class="boton-consigna">
+                    <button>Enviar consigna</button>
+                </div>
+                <br>
+            </div>
+        </div>
+        <br>
+    </div>
+</body>
+</html>

@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mitanco</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 <body>
     <div class="primera_barra">
@@ -12,28 +15,28 @@
         <div>
             <form action="/search/" method="post">
                 <input type="search" name="search" id="Search" placeholder="Search" />
-                <input type="submit" name="search" value="Search" />
+                <a ><i class="material-icons left small">search</i></a>
             </form>
         </div>
         <br>
-        <a href=# class="btn_perfil"><button>Usuario</button></a>
+        <a href="perfil.html" class="btn_perfil"><button>Usuario</button></a>
     </div>
     <br>
-    <nav class="navbar">
+    <nav class="navbarMio">
         <ul class="nav-links">
             <a href="index.html"><li>Inicio</li></a>
-            <li>Explorar</li>
-            <li>Galería</li>
-            <li>Biblioteca</li>
-            <li>Ajustes</li>
+            <a href=#><li>Explorar</li></a>
+            <a href="galeria.html"><li>Galería</li></a>
+            <a href=#><li>Biblioteca</li></a>
+            <a href=#><li>Ajustes</li></a>
         </ul>
     </nav>
     <br>
     <div class="botones_principales"> 
         <button>placeholder</button>
-        <button>Ver consignas</button>
-        <button>Pedir una consigna</button>
-        <button>Crear consignas</button>
+        <a href="ver_consignas.html"><button>Ver consignas</button></a>
+        <a href="pedir_consigna.html"><button>Pedir una consigna</button></a>
+        <a href="crear_consigna.html"><button>Crear consignas</button></a>
         <button>placeholder</button>
     </div>
     <br>
@@ -51,5 +54,8 @@
         <div class="grid-item">10</div>
       </div>
 
+    <footer>
+        Derechos reservados a MI!!
+    </footer>
 </body>
 </html>
