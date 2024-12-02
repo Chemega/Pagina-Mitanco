@@ -10,11 +10,10 @@
 </head>
 <body>
     <div class="primera_barra">
-        <h1 class="logo">Mitanco</h1>
+        <h2 class="logo">Mitanco</h2>
         <div>
             <form action="/search/" method="post">
                 <input type="search" name="search" id="Search" placeholder="Search" />
-                <a ><i class="material-icons left small">search</i></a>
             </form>
         </div>
         <br>
@@ -34,7 +33,7 @@
     <div class="cuadrado_interfaz">
         <br>
         <div class="texto_titulo">
-            <h5>Consigna del día</h5>
+            <h5>Crear consigna</h5>
         </div>
         <br>
         <div class="cuadrado-marron">
@@ -45,12 +44,13 @@
                 <div class="pedir_consigna_interfaz">
                     <br>
                     <div class="contenedor_cursos">
-                        <div class="cursos_item"><a href="pedir_consigna_programacion.html"><img src="img/bx-desktop.svg"></a></div>                        <div class="cursos_item">2</div>
-                        <div class="cursos_item">3</div>
-                        <div class="cursos_item">4</div>
-                        <div class="cursos_item">5</div>
-                        <div class="cursos_item">6</div>
-                        <div class="cursos_item">7</div>
+                        <div class="cursos_item"><a href="pedir_consigna_programacion.html"><img src="img/3994346_code_coding_css_html_programming_icon.svg"></a></div>
+                        <div class="cursos_item"><a href=#><img src="img/bx-pencil.svg"></a></div>
+                        <div class="cursos_item"><a href=#><img src="img/bxs-book.svg"></a></div>
+                        <div class="cursos_item"><a href=#><img src="img/bx-movie-play.svg"></a></div>
+                        <div class="cursos_item"><a href=#><img src="img/bx-fork.svg"></a></div>
+                        <div class="cursos_item"><a href=#><img src="img/bx-desktop.svg"></a></div>
+                        <div class="cursos_item"><a href=#><img src="img/bxs-film.svg"></a></div>
                     </div>
                     <br>
                 </div>
@@ -79,16 +79,16 @@
                 </label>
                 <div class="titulo-de-consigna">
                     <label for="titulo">Titulo:</label><br>
-                    <input type="text" id="tituloCrearConsigna" name="titulo">
+                    <input class="white" type="text" id="tituloCrearConsigna" name="titulo">
                 </div>
                 <div class="descripcion-de-la-consigna">
                     <label for="texto">Descripción de la consigna:</label><br>
-                    <textarea name="texto" id="descripcionCrearConsigna" cols="30" rows="10"></textarea>
+                    <textarea class="white" name="texto" id="descripcionCrearConsigna" cols="30" rows="10"></textarea>
                 </div>
                 <div>
                 <div class="Documentacion-de-la-consigna">
                     <label for="texto">Documentación de la consigna (opcional):</label><br>
-                    <textarea name="texto" id="documentacionCrearConsigna" cols="30" rows="10"></textarea>
+                    <textarea class="white" name="texto" id="documentacionCrearConsigna" cols="30" rows="10"></textarea>
                 </div>
                 </div>
                 <br>
@@ -100,5 +100,6 @@
         </div>
         <br>
     </div>
+    <scrip src="js/consignas.js"></scrip>
 </body>
 </html>

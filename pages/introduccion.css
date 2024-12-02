@@ -1,0 +1,40 @@
+body{
+    background-color: #130914;
+    margin: 0;
+}
+
+h1{
+    color: whitesmoke;
+}
+
+.primera_barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 9%;
+    width: 100%;
+    height: 7%;
+    list-style-type: none;
+  }
+
+.skip-intro{
+    color: antiquewhite;
+    padding: 0%;
+}
+
+.skip-intro a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.cuadrado-introduccion{
+    font-size: 50px;
+    background-color: beige;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 50px;
+    text-align: center;
+}

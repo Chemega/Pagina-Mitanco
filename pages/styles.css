@@ -15,7 +15,7 @@ body{
   align-items: center;
   padding: 5px 10%;
   width: 100%;
-  height: 100px;
+  height: 7%;
   list-style: none;
 }
 
@@ -34,6 +34,10 @@ body{
   font-weight: 700;
   display: flex;
   justify-content: center;
+}
+
+.boton-consigna a{
+  color: inherit;
 }
 
 .boton-consigna button{
@@ -108,6 +112,8 @@ body{
   background: #DECBB7;
 }
 
+
+
 .texto_titulo{
   align-items: center;
   background-color: #130914;
@@ -146,12 +152,33 @@ body{
   text-align: center;
 }
 
+.subir_imagen{
+  background-color: aliceblue;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.subir_imagen_contenedor{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
+  width: 50px;
+  padding-left: 10px;
+  column-gap: 20px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 70px;
   font-size: 30px;
   text-align: center;
-  background-image: url('img/gris.png');
+  
 }
 
 .botones_principales{
@@ -162,11 +189,13 @@ body{
 
 .botones_principales button{
   font-weight: 700;
-  color: #130914;
+  color: white;
   padding: 9px 25px;
-  background-color: grey;
+  background-color: #130914;
   border: none;
-  border-radius: 50px;
+  height: 80px;
+  width: 250px;
+  border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
@@ -205,7 +234,7 @@ body{
   align-items: center;
   background-color: #130914;
   width: 500px;
-  height: 50px;
+  height: 100px;
   color: white;
   text-align: center;
   margin-left: 29%;
@@ -239,8 +268,11 @@ body{
 .consigna-boton-empezar button{
   background-color: #FB3640;
   font-weight: 700;
+  color: white;
+  height: 50px;
   padding: 9px 25px;
-  border-radius: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
   border: none;
   cursor: pointer;
 }
@@ -250,8 +282,135 @@ body{
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  list-style: none;
+  border: none;
+}
+
+.consigna-boton-empezar a{
+  color: inherit;
+}
+
+.consigna-titulo-entregar{
+  align-items: center;
+  background-color: #130914;
+  width: 500px;
+  height: 100px;
+  color: white;
+  text-align: center;
+  margin-left: 29%;
+  border-radius: 5px;
+}
+
+.consigna-descripcion-entregar{
+  align-items: center;
+  background-color: #130914;
+  width: 1000px;
+  height: 100px;
+  color: white;
+  text-align: center;
+  margin-left: 9%;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.consigna-documentacion-entregar{
+  align-items: center;
+  background-color: #130914;
+  width: 1000px;
+  height: 100px;
+  color: white;
+  text-align: center;
+  margin-left: 9%;
+  margin-top: 20px;
+  border-radius: 5px;
 }
 
 textarea{
   resize: none;
+}
+
+.contenido{
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 25px;
+}
+
+.contenido a{
+  margin: 30px;
+}
+/*
+.tarjeta{
+  background-color: #130914;
+  display: flex;
+  align-items: space-around;
+  flex-direction: column;
+  max-width: 250px;
+  margin-left: 20px;
+}
+
+.tarjeta img{
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.tarjeta span{
+  font-size: 20px;
+}
+*/
+
+.relleno{
+  margin: 50px;
+  font-size: 100;
+  color:aliceblue;
+  text-decoration: none;
+}
+
+.texto_index_curso{
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #130914;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 400px;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.card p{
+  text-align: left;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 0%;
+}
+
+.relleno a{
+  margin: 30px;
+}
+
+.contenido-entregas{
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  column-gap: 10px;
+}
+
+.botones_consignas{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }

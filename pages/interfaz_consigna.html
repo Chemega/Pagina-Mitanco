@@ -10,11 +10,10 @@
 </head>
 <body>
     <div class="primera_barra">
-        <h1 class="logo">Mitanco</h1>
+        <h2 class="logo">Mitanco</h2>
         <div>
             <form action="/search/" method="post">
                 <input type="search" name="search" id="Search" placeholder="Search" />
-                <a ><i class="material-icons left small">search</i></a>
             </form>
         </div>
         <br>
@@ -34,28 +33,39 @@
     <div class="cuadrado_interfaz">
         <br>
         <div class="texto_titulo">
-            <h5>Consigna de (curso)</h5>
+            <h5>Consigna de Programacion > Python </h5>
         </div>
         <br>
         <div class="cuadrado-marron">
             <div class="especificaciones-pedir-consigna">
                 <div class="consigna-titulo">
-                    <h4>Hola</h4>
+                    <h5><b>Programa que diga cual número de dos es mayor</b></h5>
                 </div>
                 <div class="consigna-descripcion">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae modi dignissimos, hic doloribus sint dolores atque exercitationem adipisci culpa quibusdam maxime aspernatur nisi ratione expedita? Ab delectus quod voluptas!
+                    <h5>La consigna trata de crear un programa que te pida dos números, y luego que el programa calcule cual de ambos números es mayor de ambos.</h5>
                 </div>
                 <br>
                 <div class="consigna-documentacion">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis rerum aperiam nobis optio architecto aliquam totam sunt dolore illo fugit cupiditate, sed saepe obcaecati voluptatem incidunt minima quidem adipisci! Alias?
+                    <h5></h5>
                 </div>
-                <div class="consigna-boton-empezar">
-                    <button>Empezar consigna</button>
+                <div class="botones_consignas">
+                    <div class="consigna-boton-empezar">
+                        <button class="empezar_consigna" onclick="alert('Empezaste esta consigna el 25/11/2024! Terminala a tu ritmo')">Empezar consigna</button>
+                    </div>
+                    <div class="consigna-boton-empezar">
+                        <button class="empezar_consigna"><a href="consigna_empezada.html">Subir entrega</a></button>
+                    </div>
                 </div>
                 <br>
             </div>
         </div>
         <br>
     </div>
+    
+    <script src="js/consignas.js"></script>
+    <script>
+
+        listar_consigna()
+    </script>
 </body>
 </html>

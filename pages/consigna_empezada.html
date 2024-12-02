@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitanco</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="primera_barra">
+        <h2 class="logo">Mitanco</h2>
+        <div>
+            <form action="/search/" method="post">
+                <input type="search" name="search" id="Search" placeholder="Search" />
+            </form>
+        </div>
+        <br>
+        <a href="perfil.html" class="btn_perfil"><button>Usuario</button></a>
+    </div>
+    <br>
+    <nav class="navbarMio">
+        <ul class="nav-links">
+            <a href="index.html"><li>Inicio</li></a>
+            <a href=#><li>Explorar</li></a>
+            <a href="galeria.html"><li>Galería</li></a>
+            <a href=#><li>Biblioteca</li></a>
+            <a href=#><li>Ajustes</li></a>
+        </ul>
+    </nav>
+    
+    <div class="cuadrado_interfaz">
+        <br>
+
+        <div class="cuadrado-marron">
+            <div class="especificaciones-pedir-consigna">
+                <div class="consigna-titulo-entregar">
+                    <div class="titulo-de-consigna">
+                        <label for="titulo">Titulo:</label><br>
+                        <input class="color white" type="text" id="tituloCrearConsigna" name="titulo">
+                    </div>
+                </div>
+                <div class="consigna-descripcion-entregar">
+                    <div class="descripcion-de-la-consigna">
+                        <label for="texto">Descripción de la consigna:</label><br>
+                        <textarea class="color white" name="texto" id="descripcionCrearConsigna" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="subir_imagen_contenedor">
+                    <div class="subir_imagen"><a href=#><img src="img/8679923_upload_2_fill_icon.svg"></a></div>
+                    <div class="subir_imagen"><a href=#><img src="img/8665580_font_alphabet_icon.svg"></a></div>
+                </div>
+                <br>
+                <div class="consigna-documentacion-entregar">
+                    <div class="Documentacion-de-la-consigna">
+                        <label for="texto">Documentación de la consigna (opcional):</label><br>
+                        <textarea class="color white" name="texto" id="documentacionCrearConsigna" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <div class="subir_imagen_contenedor">
+                    <div class="subir_imagen"><a href=#><img src="img/8679923_upload_2_fill_icon.svg"></a></div>
+                    <div class="subir_imagen"><a href=#><img src="img/8665580_font_alphabet_icon.svg"></a></div>
+                </div>
+                <div class="consigna-boton-empezar">
+                    <button>Enviar entrega</button>
+                </div>
+                <br>
+            </div>
+        </div>
+        <br>
+    </div>
+    
+    <script src="js/consignas.js"></script>
+    <script>
+        listar_consigna()
+    </script>
+</body>
+</html>
